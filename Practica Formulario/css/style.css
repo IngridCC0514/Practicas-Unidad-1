@@ -1,0 +1,36 @@
+.videodefondo {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.Formulario {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 0 auto;
+    max-width: 400px;
+    border-radius: 10px;
+    backdrop-filter: blur (50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.Formulario img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    padding: 10px;
+    text-align: center;
+}
