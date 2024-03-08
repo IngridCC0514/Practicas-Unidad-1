@@ -1,0 +1,64 @@
+.linea1{
+    border: none;
+    border-left: 3 px solid royalblue;
+    height: 100px;
+    display: flex;
+    margin-left: 54%;
+    margin-top: 50px;
+}
+
+.linea2{
+    border: 1px solid royalblue;
+    width: 691px;
+    margin-left: 350px;
+}
+
+.linea3{
+    border: none;
+    border-left: 3px solid royalblue;
+    height: 100px;
+    display: flex;
+    margin-left: 77.0%;
+}
+
+.linea4{
+    border: none;
+    border-left: 3px solid royalblue;
+    height: 100px;
+    display: flex;
+    margin-left: 350px;
+    margin-top: -100px;
+}
+
+.figura1{
+    border: none;
+    border-left: 3px solid goldenrod;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    margin-left: 47%;
+    background: gray;
+    margin-top: 80px;
+}
+
+.figura2{
+    border: none;
+    border-left: 3px solid goldenrod;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    margin-left: 73%;
+    background: gray;
+    margin-top: -200px;
+}
+
+.figura3{
+    border: none;
+    border-left: 3px solid firebrick;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    margin-left: 22%;
+    background: aqua;
+    margin-top: -115px;
+}
