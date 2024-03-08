@@ -1,0 +1,18 @@
+h1{
+    text-align: center; color: white;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+*{ 
+    background-color: black;
+    }
+pre{
+    text-align: center; color: white;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+img{  
+    width: 50%;
+}
+footer{
+    color: white;
+    font-family: 'Comic Sans MS', sans-serif;
+}
