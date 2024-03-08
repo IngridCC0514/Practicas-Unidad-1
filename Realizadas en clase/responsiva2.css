@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.body{
+    background-color: white;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    display: flex;
+}
+
+.left{
+    background-color: aqua;
+    display: block;
+    padding: 20px;
+    float: left;
+    width: 30%; /* The width is 20%, by default */
+    color: blue;
+    text-align: center;
+}
+
+.main{
+    text-align: justify;
+    background-color: green;
+    float: none;
+    width: 70%;
+    color: white;
+    text-align: center;
+}
+
+.right{
+    background-color: purple;
+    display: flex;
+    padding: 20px;
+    float: right;
+    width: 30%; /* The width is 20%, by default */
+    color: white;
+    text-align: center;
+    margin-top: -134px;
+}
+
+@media screen and (max-width: 660px) {
+    .left,
+    .main,
+    .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px */
+    }
+}
